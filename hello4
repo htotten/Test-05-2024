@@ -2,3 +2,10 @@ you say goodbye
 AND 
 I say hello 
 hello hello 
+
+i=0
+
+do NOT know why you print("goodbye") 
+
+when(i):
+  print("hello")
