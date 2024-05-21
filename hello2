@@ -1,2 +1,8 @@
+var1 = "hello"
+var2 = "again"
+var3 = "world"
+
 def test2:
   print("test test test")
+
+
