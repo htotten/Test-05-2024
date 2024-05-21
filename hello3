@@ -1,10 +1,13 @@
 yara = "yet another retesting adventure"
 tcp = "testing controls and procedures" 
+ip = "information plethora"
 
 if(yara == tcp):
   print("this makes no sense")
 elif(yara < tcp):
   print("these are not numbers")
+elif(tcp < ip):
+  print("these are protocols")
 else:
   print("you are here.")
-print("the end")
+
