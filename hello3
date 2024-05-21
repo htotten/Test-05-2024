@@ -1,2 +1,9 @@
 yara = "yet another retesting adventure"
 tcp = "testing controls and procedures" 
+
+if(yara == tcp):
+  print("this makes no sense")
+elif(yara < tcp):
+  print("these are not numbers")
+else:
+  print("you are here.")
