@@ -2,6 +2,7 @@ yara = "yet another retesting adventure"
 tcp = "testing controls and procedures" 
 ip = "information plethora"
 sql = "subsequent quixotic logic"
+EOL = "end of list"
 
 if(yara == tcp):
   print("this makes no sense")
@@ -13,4 +14,6 @@ elif(ip > sql):
   print("keep trying")
 else:
   print("you are here.")
+
+print(EOL)
 
